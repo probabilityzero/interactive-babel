@@ -1,7 +1,7 @@
 {
-  "name": "tariqve.github.io",
+  "name": "intractive-babel",
   "version": "1.0.0",
-  "description": "Welcome to my professional portfolio. I am currently pursuing a Bachelor's degree in International Business & Finance along with Bachelor of Science in Data Science & Application. I am passionate about using data and make informed decisions in business. My skills include data cleaning, visualization, machine learning, financial analysis, software development, UI/UX design, and IT project management. Click on the links below to view detailed projects.",
+  "description": "Intractive Background using Babel.js.",
   "main": "index.js",
   "directories": {
     "doc": "docs"

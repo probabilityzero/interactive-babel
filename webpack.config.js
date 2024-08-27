@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
   entry: './src/scripts/ib.js',
   output: {
-    path: path.resolve(__dirname, 'docs/assets'),
-    filename: 'ib.js',
+    path: path.resolve(__dirname, 'src'),
+    filename: 'main.js',
   },
   module: {
     rules: [
@@ -29,7 +29,7 @@ module.exports = {
     },
     compress: true,
     port: 9000,
-    watchFiles: ['src/**/*', 'docs/**/*'],
+    watchFiles: ['src/**/*'],
   },
   mode: 'development',
 };
